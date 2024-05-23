@@ -1,0 +1,55 @@
+type: to get the type of data structure
+
+Formatting:-
+.format('text'):- adds text to the end
+print('The {0} {0} {1}'.format('fuzz', 'fuss', 'fuse')):- prints in sequence
+print("The result {r:1.3f}".format(r=result)):- rounds off the result
+
+Slicing:- trims the  data structure 
+mystring[index:]:- starts from the mentioned index
+mystring[:index]:- trims from the backwards
+mystring[index1:index2]:- prints the index 1 to index 2
+mystring[::index]:- skips the indexs mentioned (skips 3 index if menetioned)
+mystring[::-1]:- reverses the string
+x.upper():- whole string in upper case
+x.split():- splits the words in the string
+
+Strings:- Ordered Sequence
+print("hello"):- a string
+print('hello \nworld');- \n for new line
+len("hello"):- string size
+mystring[index]:- string of starting
+mystring[-2]:- string from the end
+
+Dictionaries:- Retrieves value and keys
+prices = {'apple' : 2}:- stores value and key
+prices['apple']:- retrieves key for apple
+d = {'k1': 123, 'k2':[100],}:- stores multiple values along with its keys
+d.keys():- retrieves keys
+d.value():- retrieves value
+d.items():- retrieves all the of the above
+
+List:- Stores value
+my_list = [1,2,3]:- a list
+len(my_list):- retrieves the length of the list
+print(my_list):- prints the list
+new_list = my_list + my2_list:- can merge 2 list
+new_list.append('six'):- adds the six
+new_list.pop():- pops/delete the element
+pop_item = new_list.pop():- adds the poped element to the new list
+my_list.sort():- sorts the list
+my_list.reverse():- reverses a list
+
+Sets:- Sorts and stores no duplicate values
+myset = set():- creates a new set data structure
+myset:- retrieves the set 
+myset.add('a'):- adds the element
+mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]
+set(mylist);- sorts the list
+
+Tuples:- Immutable/ Non destructive
+t=(1, 1, 2):-a tuple
+t.count(1): counts no of (1) in a tuple
+t.index(b):- tells the index of 2
+mylist[2] = 100:- adds 100 to the tuple after assigning it a list
+t[0] = 100:- cannot be executed as the tuple is immutable
