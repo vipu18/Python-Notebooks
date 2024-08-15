@@ -5,6 +5,7 @@ Formatting:-
 print('The {0} {0} {1}'.format('fuzz', 'fuss', 'fuse')):- prints in sequence
 print("The result {r:1.3f}".format(r=result)):- rounds off the result
 
+
 Slicing:- trims the  data structure 
 mystring[index:]:- starts from the mentioned index
 mystring[:index]:- trims from the backwards
